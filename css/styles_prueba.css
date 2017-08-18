@@ -1,0 +1,43 @@
+/*reset*/ 
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/*html*/
+html {font-size: 16px; font-family: 'Dosis', sans-serif;}
+/*genericos*/
+.profile-prueba .box {border: 1px solid #444; overflow: hidden; margin: 30px 0;height: inherit;}
+.profile-prueba .img-responsive {width: 100%}
+.profile-prueba .no-m {margin: 0}
+.profile-prueba .no-p {padding: 0}
+.profile-prueba .deff-profile .box-content {height: 92px;display: block;background-color: #ccc;padding: 9px;margin: 0px 10px 20px;}
+/*Info*/
+.profile-prueba .data-profile ul li {margin: 5px 0}
+.profile-prueba .data-profile ul li:first-child {margin: 0}
+.profile-prueba .data-profile ul li h2 {font-size:2em; line-height: 1.2; }
+.profile-prueba .data-profile ul li p {font-size:1em; line-height: 1.2;     display: inline-block;margin-right: 10px}
+.profile-prueba .data-profile ul li a ,.profile-prueba .extra-profile  h5, .deff-profile .box-content p {color:#444; font-weight: 700; line-height: 1.2}
+.profile-prueba .extra-profile p {font-size: 1em; line-height:1.4}
+/*Sumario*/
+.profile-prueba summary {margin: 50px 0}
+.profile-prueba summary p {font-size:1.5em; line-height: 1.5; }	
+/*Caja Attach*/
+.profile-prueba .attach-profile {position: relative;}
+.profile-prueba .attach-profile .title {position: absolute;background: #fff; top: -8px;left: 31px;padding: 0 9px;}
+.profile-prueba .attach-profile .title p.title-attach {font-weight:700 }
+.profile-prueba .attach-profile ul {padding: 15px;}
+.profile-prueba .attach-profile ul li {margin:10px 0;}
+.profile-prueba .attach-profile ul li a {color: #000; font-size: 18px;}
+.profile-prueba .attach-profile ul li a:before {font: normal 14px/1 FontAwesome; margin-right: 10px}
+.profile-prueba .attach-profile ul li.pdf-file a:before {  content: "\f1c1";}
+.profile-prueba .attach-profile ul li.audio-file a:before {  content: "\f025";}
+/*Iframe Responsive*/
+.profile-prueba .iframe-embed{position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;}
+.profile-prueba .iframe-embed iframe {width: 100%; height: 100%; position: absolute;top:0;left: 0;}
+/*Articulos*/
+.profile-prueba .bottom .item {height: 200px;}
+/*MediaQueries*/
+@media (max-width: 1249px){
+   .profile-prueba .deff-profile ,.profile-prueba .data-profile{margin: 30px 0;}
+   .profile-prueba .bottom .item {height: auto;}
+}
+@media (max-width: 719px){
+   .profile-prueba .data-profile ,.profile-prueba .extra-profile {border-bottom: 1px solid #a4a4a4;padding-bottom: 20px;}
+}
