@@ -1,8 +1,9 @@
-/*reset*/ 
+/*reset*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /*html*/
 html {font-size: 16px; font-family: 'Dosis', sans-serif;}
 /*genericos*/
+.profile-prueba {margin-top: 40px;    border: 1px solid #a4a4a4;    padding: 40px 15px;}
 .profile-prueba .box {border: 1px solid #444; overflow: hidden; margin: 30px 0;height: inherit;}
 .profile-prueba .img-responsive {width: 100%}
 .profile-prueba .no-m {margin: 0}
@@ -17,7 +18,7 @@ html {font-size: 16px; font-family: 'Dosis', sans-serif;}
 .profile-prueba .extra-profile p {font-size: 1em; line-height:1.4}
 /*Sumario*/
 .profile-prueba summary {margin: 50px 0}
-.profile-prueba summary p {font-size:1.5em; line-height: 1.5; }	
+.profile-prueba summary p {font-size:1.5em; line-height: 1.5; margin:5px 0}
 /*Caja Attach*/
 .profile-prueba .attach-profile {position: relative;}
 .profile-prueba .attach-profile .title {position: absolute;background: #fff; top: -8px;left: 31px;padding: 0 9px;}
@@ -35,9 +36,10 @@ html {font-size: 16px; font-family: 'Dosis', sans-serif;}
 .profile-prueba .bottom .item {height: 200px;}
 /*MediaQueries*/
 @media (max-width: 1249px){
-   .profile-prueba .deff-profile ,.profile-prueba .data-profile{margin: 30px 0;}
+  .profile-prueba {margin-top: 0}
+   .profile-prueba .deff-profile {margin: 30px 0;}
    .profile-prueba .bottom .item {height: auto;}
 }
 @media (max-width: 719px){
-   .profile-prueba .data-profile ,.profile-prueba .extra-profile {border-bottom: 1px solid #a4a4a4;padding-bottom: 20px;}
+   .profile-prueba .data-profile ,.profile-prueba .extra-profile {border-bottom: 1px solid #a4a4a4;padding: 20px;}
 }
